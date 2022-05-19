@@ -1,0 +1,36 @@
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.dll
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.pdb
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.xml
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.dll
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.pdb
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.xml
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\ResolveAssemblyReference.cache
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\Rist.MCR.MCRCmnIndClass.Resources.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.vbproj.GenerateResource.Cache
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.dll
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.xml
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.pdb
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.dll
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.pdb
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.xml
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.dll
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.pdb
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.xml
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\Rist.MCR.MCRCmnIndClass.Resources.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.vbproj.GenerateResource.Cache
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.dll
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.xml
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.pdb
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.dll
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.pdb
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.xml
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.dll
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.pdb
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.xml
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\ResolveAssemblyReference.cache
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\Rist.MCR.MCRCmnIndClass.Resources.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.vbproj.GenerateResource.Cache
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.dll
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.xml
+D:\Project_MCR\MCRCmnClassSln\MCRCmnIndClass\obj\Debug\MCRCmnIndClass.pdb

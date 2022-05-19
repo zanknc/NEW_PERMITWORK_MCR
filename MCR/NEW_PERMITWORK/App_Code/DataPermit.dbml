@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SAFETY" Class="DataPermitDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.28.1.75;Initial Catalog=SAFETY;Integrated Security=False;User ID=ship;Min Pool Size=5;Max Pool Size=500;MultipleActiveResultSets=True;Connect Timeout=150000" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SAFETYConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SAFETY_AREA" Member="SAFETY_AREAs">
+    <Type Name="SAFETY_AREA">
+      <Column Name="AREANO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AREADIV" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AREADEP" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AREAEMPCODE" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="AREAEMPNAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AREAEMAIL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AREADATAIL" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="AREACREATEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AREACHECKNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

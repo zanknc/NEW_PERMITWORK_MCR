@@ -1,0 +1,8 @@
+SQL
+10.28.1.75
+User : ship
+Pw    :  ship
+DB : SAFETY 
+
+
+http://10.29.1.39/PERMITONLINE/PERMIT_LOGIN.aspx

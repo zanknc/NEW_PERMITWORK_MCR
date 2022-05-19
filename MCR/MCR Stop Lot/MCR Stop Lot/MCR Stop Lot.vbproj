@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FBDB598-AFF0-4553-B326-4B3A7235EE56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MCR_Stop_Lot.My.MyApplication</StartupObject>
+    <RootNamespace>MCR_Stop_Lot</RootNamespace>
+    <AssemblyName>MCR Stop Lot</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Form\SystemLogo.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MCR Stop Lot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MCR Stop Lot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>MCR Stop Lot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>MCR Stop Lot.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MCRCmnClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnClass.dll</HintPath>
+    </Reference>
+    <Reference Include="MCRCmnIndClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Delivery\MCRCmnClassSln\MCRCmnIndClass\bin\Debug\MCRCmnIndClass.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\CtrLogIn.vb" />
+    <Compile Include="Controller\CtrStatusLotMaintenance.vb" />
+    <Compile Include="Entity\Abnormal.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Entity\ABnormalMode.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Entity\LotStatus.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Entity\Process.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Entity\Status.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\CompleteMenu.Designer.vb">
+      <DependentUpon>CompleteMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CompleteMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CompleteStopLot.Designer.vb">
+      <DependentUpon>CompleteStopLot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CompleteStopLot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CompleteStopLotCancel.Designer.vb">
+      <DependentUpon>CompleteStopLotCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CompleteStopLotCancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\LogIn.Designer.vb">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\LogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SEMIMenu.Designer.vb">
+      <DependentUpon>SEMIMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SEMIMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SEMIStopLot.Designer.vb">
+      <DependentUpon>SEMIStopLot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SEMIStopLot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SEMIStopLotCancel.Designer.vb">
+      <DependentUpon>SEMIStopLotCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SEMIStopLotCancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager\MgrLogIn.vb" />
+    <Compile Include="Manager\MgrLotStatusMaintenance.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserControl\UCButt.Designer.vb">
+      <DependentUpon>UCButt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCButt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCLotStatus.Designer.vb">
+      <DependentUpon>UCLotStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCLotStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCStopBUT.Designer.vb">
+      <DependentUpon>UCStopBUT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCStopBUT.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UCTextAlert.Designer.vb">
+      <DependentUpon>UCTextAlert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCTextAlert.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\CompleteMenu.resx">
+      <DependentUpon>CompleteMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CompleteStopLot.resx">
+      <DependentUpon>CompleteStopLot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CompleteStopLotCancel.resx">
+      <DependentUpon>CompleteStopLotCancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\LogIn.resx">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SEMIMenu.resx">
+      <DependentUpon>SEMIMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SEMIStopLot.resx">
+      <DependentUpon>SEMIStopLot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SEMIStopLotCancel.resx">
+      <DependentUpon>SEMIStopLotCancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCButt.resx">
+      <DependentUpon>UCButt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCLotStatus.resx">
+      <DependentUpon>UCLotStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCStopBUT.resx">
+      <DependentUpon>UCStopBUT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\UCTextAlert.resx">
+      <DependentUpon>UCTextAlert.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\CtrCompStopLot.vb" />
+    <Compile Include="Controller\CtrSemiStopLot.vb" />
+    <Compile Include="Manager\MgrCompStopLot.vb" />
+    <Compile Include="Manager\MgrSemiStopLot.vb" />
+    <Content Include="bin\Debug\MCR Stop Lot.exe" />
+    <Content Include="bin\Debug\MCR Stop Lot.pdb" />
+    <Content Include="bin\Debug\MCR Stop Lot.vshost.exe" />
+    <Content Include="bin\Debug\MCR Stop Lot.xml" />
+    <Content Include="bin\Debug\MCRCmnClass.dll" />
+    <Content Include="bin\Debug\MCRCmnClass.pdb" />
+    <Content Include="bin\Debug\MCRCmnClass.xml" />
+    <Content Include="bin\Debug\MCRCmnIndClass.dll" />
+    <Content Include="bin\Debug\MCRCmnIndClass.pdb" />
+    <Content Include="bin\Debug\MCRCmnIndClass.xml" />
+    <Content Include="bin\Release\MCR Stop Lot.exe" />
+    <Content Include="bin\Release\MCR Stop Lot.pdb" />
+    <Content Include="bin\Release\MCR Stop Lot.xml" />
+    <Content Include="bin\Release\MCRCmnClass.dll" />
+    <Content Include="bin\Release\MCRCmnClass.pdb" />
+    <Content Include="bin\Release\MCRCmnClass.xml" />
+    <Content Include="bin\Release\MCRCmnIndClass.dll" />
+    <Content Include="bin\Release\MCRCmnIndClass.pdb" />
+    <Content Include="bin\Release\MCRCmnIndClass.xml" />
+    <Content Include="Form\SystemLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x86\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

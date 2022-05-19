@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MCRCmnClass
+</name>
+</assembly>
+<members>
+<member name="T:Rist.MCR.BaseObjects.BasePreviewReport">
+ -----------------------------------------------------------------------------
+ Project	 : OEMCmnClass
+ Class	 : OEMCmnClass.BasePreviewReport
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ this class have Report preview base function
+ </summary>
+	<remarks>
+ Condition     	: SqlServer2000, ADO.Net, .NetFramework
+ </remarks>
+	<history>
+ 	[Wattana]	2009/06/30	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:Rist.MCR.BaseObjects.DBBase.ExecStoredProcedure(System.Data.SqlClient.SqlCommand)">
+	<summary>
+	</summary>
+	<param name="objCmd"></param>
+	<remarks></remarks>
+</member><member name="P:Rist.MCR.BaseObjects.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Rist.MCR.BaseObjects.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Rist.MCR.BaseObjects.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,84 @@
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.dll
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\ResolveAssemblyReference.cache
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.BasePreviewReport.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.ComboBoxMultiColumn.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBox.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBoxColumn.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DialogControl.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FormBase.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.TransactionMaintenance.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FunctionKeyControl.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.KeyControl.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.MasterMaintenance.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.Resources.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PageBase.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PrintScreenControl.resources
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.vbproj.GenerateResource.Cache
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.dll
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.xml
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.pdb
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.pdb
+\\rthsrvm02\MCR-Project\Source Program\Delivery\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.xml
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.dll
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.pdb
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.xml
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\ResolveAssemblyReference.cache
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.BasePreviewReport.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.ComboBoxMultiColumn.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBox.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBoxColumn.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DialogControl.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FormBase.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.TransactionMaintenance.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FunctionKeyControl.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.KeyControl.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.MasterMaintenance.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.Resources.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PageBase.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PrintScreenControl.resources
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.vbproj.GenerateResource.Cache
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.dll
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.xml
+\\rthsrvm03\MCR-Project\Source Program\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.pdb
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.dll
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.pdb
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.xml
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.BasePreviewReport.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.ComboBoxMultiColumn.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBox.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBoxColumn.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DialogControl.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FormBase.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.TransactionMaintenance.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FunctionKeyControl.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.KeyControl.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.MasterMaintenance.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.Resources.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PageBase.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PrintScreenControl.resources
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.vbproj.GenerateResource.Cache
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.dll
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.xml
+C:\Users\007895\Desktop\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.pdb
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.dll
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.pdb
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\bin\Debug\MCRCmnClass.xml
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\ResolveAssemblyReference.cache
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.BasePreviewReport.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.ComboBoxMultiColumn.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBox.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DataGridComboBoxColumn.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.DialogControl.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FormBase.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.TransactionMaintenance.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.FunctionKeyControl.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.KeyControl.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.MasterMaintenance.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.Resources.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PageBase.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\Rist.MCR.BaseObjects.PrintScreenControl.resources
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.vbproj.GenerateResource.Cache
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.dll
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.xml
+D:\Project_MCR\MCRCmnClassSln\MCRCmnClass\obj\Debug\MCRCmnClass.pdb

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SAFETY" Class="DBELECTRICALDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.28.1.75;Initial Catalog=SAFETY;Integrated Security=False;User ID=ship;Min Pool Size=5;Max Pool Size=500;MultipleActiveResultSets=True;Connect Timeout=150000" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SAFETYConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SAFETY_APPROVEEMAIL_ELECTRICAL" Member="SAFETY_APPROVEEMAIL_ELECTRICALs">
+    <Type Name="SAFETY_APPROVEEMAIL_ELECTRICAL">
+      <Column Name="SAFETYID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SAFETYCODE" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="SAFETYTITLENAME" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SAFETYNAMETH" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SAFETYNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SAFETYEMAIL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SAFETYEDETAIL" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="SAFETYEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SAFETYEIPADDRESS" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SAFETY_ELECTRICAL_TEST" Member="SAFETY_ELECTRICAL_TESTs">
+    <Type Name="SAFETY_ELECTRICAL_TEST">
+      <Column Name="SCNO" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="SCYEAR" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="SCNAMETITLE" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="SCNAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCREQNAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCTELMOBILE" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SCTELCOMPANY" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SCPERMITSESS" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME4" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITNAME7" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCWORKDIV" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCWORKDETAIL" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SCWORKAREA" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SCFLOOR" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SCWORKOTHER" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SCDIVNAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCSECTNAME" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCVOLTE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SCNAMECONTROL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEMAILCONTROL" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCSTAMPCONTROL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCCONTROLAPRDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCWORKDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCWORKDATEFROM" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SCWORKDATETO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="SCCOMPANY" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITWORKNAMETITLE" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="SCPERMITWORKNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCPERMITWORKSUM" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT1CHECK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT2CHECK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT3" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT3CHECK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT4" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT4CHECK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT5" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT5CHECK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT6" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SCEQUIPMENT6CHECK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SCTITLEAPPNAME" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SCAPPNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCHOSTAPRDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCEMAILAPPNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCCREATEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCTITLESAFETYNAME" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="SCSAFETYNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCSAFETYEMAILNAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SCSAFETYDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATEDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SCSCQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

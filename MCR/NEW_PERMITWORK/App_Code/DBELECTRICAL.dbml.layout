@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.75, 20" name="DBELECTRICAL">
+  <DataContextMoniker Name="/DBELECTRICALDataContext" />
+  <nestedChildShapes>
+    <classShape Id="30fbe5f3-a09a-49cb-afff-ab7e903b97f6" absoluteBounds="10.5, 12.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DBELECTRICALDataContext/SAFETY_APPROVEEMAIL_ELECTRICAL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b16b9ab7-21a1-49ba-8ed3-38ccfbd79ecb" absoluteBounds="10.515, 12.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="621614ac-5353-4a32-9137-5a6eb87a235c" absoluteBounds="5.625, 8, 2, 11.7705712890625">
+      <DataClassMoniker Name="/DBELECTRICALDataContext/SAFETY_ELECTRICAL_TEST" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87a67374-ae48-4927-8f0f-30fe43eb324d" absoluteBounds="5.64, 8.46, 1.9700000000000002, 11.2105712890625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

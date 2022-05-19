@@ -1,0 +1,27 @@
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCR Stop Lot.exe
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCR Stop Lot.pdb
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCR Stop Lot.xml
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCRCmnClass.dll
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCRCmnIndClass.dll
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCRCmnIndClass.pdb
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCRCmnIndClass.xml
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCRCmnClass.pdb
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\bin\Release\MCRCmnClass.xml
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\ResolveAssemblyReference.cache
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.CompleteMenu.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.CompleteStopLot.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.CompleteStopLotCancel.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.LogIn.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.MainMenu.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.SEMIMenu.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.SEMIStopLot.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.SEMIStopLotCancel.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.Resources.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.UCButt.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.UCLotStatus.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.UCStopBUT.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR_Stop_Lot.UCTextAlert.resources
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR Stop Lot.vbproj.GenerateResource.Cache
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR Stop Lot.exe
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR Stop Lot.xml
+\\rthsrvm02\MCR-Project\Source Program\MCR Stop Lot\MCR Stop Lot\obj\Release\MCR Stop Lot.pdb
