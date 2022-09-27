@@ -78,6 +78,8 @@ Partial Class P_CHECKDATATODAY
         End If
 
         Dim rpt As New ReportDocument()
+        '--------รอเพิ่ม Column ตัวจริง
+        'rpt.Load(Server.MapPath("Safety_Report_Real.rpt"))
         rpt.Load(Server.MapPath("Safety_Report.rpt"))
         rpt.SetDataSource(V_PERMITWORK)
         Me.CrystalReportViewer1.ReportSource = rpt

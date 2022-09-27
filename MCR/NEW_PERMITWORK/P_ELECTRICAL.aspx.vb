@@ -25,6 +25,7 @@ Imports System.Net.Mail
 Imports System.Net
 Imports System.Net.IPHostEntry
 Imports System.Text.RegularExpressions
+
 Partial Class P_ELECTRICAL
     Inherits System.Web.UI.Page
     Protected Property Namereq() As String

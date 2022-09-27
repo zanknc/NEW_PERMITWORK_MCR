@@ -48,7 +48,14 @@
     </asp:ContentPlaceHolder>
 
  
-
+    <script type="text/javascript">
+        function Download_file(){
+         
+            var url = "https://10.29.1.141//host area//HOST AREA.pdf ";
+            window.open(URL, null);
+            alert("////10.29.1.141\\host area\\HOST AREA.pdf");
+        }
+    </script>
 </head>
 <body>
  <form id="form" runat="server">
@@ -76,8 +83,9 @@
             <li><a href="P_License_Operate.aspx">EXTRATIME</a></li>
          <li><a href="Found_Problems.aspx">FOUNDPROBLEMS</a></li>
          <li><a href="P_CHECKDATATODAY.aspx">CHECK WORK</a></li>
-          <li><a href='http://10.29.1.141/P_SAFETY/Document/Home page/Safety and CSR Information/HOST AREA/HOST AREA.pdf'>CHECK HOST AREA</a></li>
-       
+        <%--  <li><a href='http://10.29.1.141/P_SAFETY/Document/Home page/Safety and CSR Information/HOST AREA/HOST AREA.pdf'>CHECK HOST AREA</a></li>--%>
+   <%--   <li><a href="file:////10.29.1.141\host area\HOST AREA.pdf">CHECK HOST AREA</a></li>       --%>
+             <li><a href="" onclick="Download_file()">CHECK HOST AREA</a></li>       
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

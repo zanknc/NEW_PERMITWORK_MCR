@@ -147,7 +147,7 @@ Partial Class P_HOTWORK_PERMIT
         'Dim dateString, timestart, timeEnd As String
         Dim dateString As String
         BtnSave.Visible = True
-        'BtnUpdate.Visible = True
+        BtnUpdate.Visible = True
         If txtcheckno.Text.Trim() = "" Then
             ClientScript.RegisterStartupScript(Me.[GetType](), "myalert", "alert('Please Check New : " & CHWOP & "  NAJA !!!');", True)
         End If

@@ -505,6 +505,9 @@ Partial Class P_PermitWork
             ClientScript.RegisterStartupScript(Me.[GetType](), "myalert", "alert('!!! Please Insert Data !!!');", True)
             Exit Sub
         End If
+
+        BtnUpdate.Visible = True
+
         txtSearch.Enabled = True
         txtname.Enabled = True
         txtsumname.Enabled = True
@@ -1208,6 +1211,10 @@ Partial Class P_PermitWork
         'rpt.ExportToHttpResponse(formatType, Response, True, "WORKPERMIT" + "-" + txtcheckno.Text.Trim())
         'rpt.Dispose()
         'Response.[End]()
+
+        rpt.Close()
+        rpt.Dispose()
+        GC.Collect()
     End Sub
 #End Region
 #Region "UPDATE PERMITWORK"
@@ -1341,6 +1348,13 @@ Partial Class P_PermitWork
     End Sub
 #End Region
 
+    Protected Overrides Sub OnUnload(e As EventArgs)
+        MyBase.OnUnload(e)
+
+        rpt.Close()
+        rpt.Dispose()
+        GC.Collect()
+    End Sub
 
     Private Sub P_PermitWork_Unload(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Unload
         rpt.Close()

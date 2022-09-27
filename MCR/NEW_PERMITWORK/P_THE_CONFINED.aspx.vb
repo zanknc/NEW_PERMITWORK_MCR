@@ -180,6 +180,13 @@ Partial Class P_THE_CONFINED
                     ddlcername5.SelectedItem.Text = vipr.Item("SCPERMITNAME5")
                     ddlcername6.SelectedItem.Text = vipr.Item("SCPERMITNAME6")
                     ddlcername7.SelectedItem.Text = vipr.Item("SCPERMITNAME7")
+                    '---------Add new 2022-09-09
+                    ddlcername8.SelectedItem.Text = vipr.Item("SCPERMITNAME8")
+                    ddlcername9.SelectedItem.Text = vipr.Item("SCPERMITNAME9")
+                    ddlcername10.SelectedItem.Text = vipr.Item("SCPERMITNAME10")
+                    ddlcername11.SelectedItem.Text = vipr.Item("SCPERMITNAME11")
+                    ddlcername12.SelectedItem.Text = vipr.Item("SCPERMITNAME12")
+                    ddlcername13.SelectedItem.Text = vipr.Item("SCPERMITNAME13")
 
                     ddlFunction1.SelectedItem.Text = vipr.Item("SCFunction1")
                     ddlFunction2.SelectedItem.Text = vipr.Item("SCFunction2")
@@ -188,7 +195,13 @@ Partial Class P_THE_CONFINED
                     ddlFunction5.SelectedItem.Text = vipr.Item("SCFunction5")
                     ddlFunction6.SelectedItem.Text = vipr.Item("SCFunction6")
                     ddlFunction7.SelectedItem.Text = vipr.Item("SCFunction7")
-
+                    '---------Add new 2022-09-09
+                    ddlFunction8.SelectedItem.Text = vipr.Item("SCFunction8")
+                    ddlFunction9.SelectedItem.Text = vipr.Item("SCFunction9")
+                    ddlFunction10.SelectedItem.Text = vipr.Item("SCFunction10")
+                    ddlFunction11.SelectedItem.Text = vipr.Item("SCFunction11")
+                    ddlFunction12.SelectedItem.Text = vipr.Item("SCFunction12")
+                    ddlFunction13.SelectedItem.Text = vipr.Item("SCFunction13")
 
                     txtdivdep.Text = vipr.Item("SCWORKDIV")
                     txtworkdetail.Text = vipr.Item("SCWORKDETAIL")
@@ -566,6 +579,14 @@ Partial Class P_THE_CONFINED
             cmd.Parameters.AddWithValue("@SCPERMITNAME5", ddlcername5.SelectedValue.Trim())
             cmd.Parameters.AddWithValue("@SCPERMITNAME6", ddlcername6.SelectedValue.Trim())
             cmd.Parameters.AddWithValue("@SCPERMITNAME7", ddlcername7.SelectedValue.Trim())
+            '------------------- Add new 2022-09-09
+            cmd.Parameters.AddWithValue("@SCPERMITNAME8", ddlcername8.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCPERMITNAME9", ddlcername9.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCPERMITNAME10", ddlcername10.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCPERMITNAME11", ddlcername11.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCPERMITNAME12", ddlcername12.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCPERMITNAME13", ddlcername13.SelectedValue.Trim())
+
 
             cmd.Parameters.AddWithValue("@SCFunction1", ddlFunction1.SelectedValue.Trim())
             cmd.Parameters.AddWithValue("@SCFunction2", ddlFunction2.SelectedValue.Trim())
@@ -574,7 +595,13 @@ Partial Class P_THE_CONFINED
             cmd.Parameters.AddWithValue("@SCFunction5", ddlFunction5.SelectedValue.Trim())
             cmd.Parameters.AddWithValue("@SCFunction6", ddlFunction6.SelectedValue.Trim())
             cmd.Parameters.AddWithValue("@SCFunction7", ddlFunction7.SelectedValue.Trim())
-
+            '------------------- Add new 2022-09-09
+            cmd.Parameters.AddWithValue("@SCFunction8", ddlFunction8.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCFunction9", ddlFunction9.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCFunction10", ddlFunction10.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCFunction11", ddlFunction11.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCFunction12", ddlFunction12.SelectedValue.Trim())
+            cmd.Parameters.AddWithValue("@SCFunction13", ddlFunction13.SelectedValue.Trim())
 
 
             cmd.Parameters.AddWithValue("@SCWORKDIV", txtdivdep.Text.Trim())
@@ -688,14 +715,30 @@ Partial Class P_THE_CONFINED
         CheckName_no()
     End Sub
     Private Sub CheckName_no()
+
+        For index As Integer = 1 To txtnamesum.Text
+            Dim ctrl = Me.FindControl("ddlcername" & index)
+            If ctrl IsNot Nothing Then
+                ctrl.Visible = True
+            End If
+        Next
+
         If txtnamesum.Text = "1" Then
-            ddlcername1.Enabled = True
+            ddlcername1.Enabled = False
             ddlcername2.Enabled = False
             ddlcername3.Enabled = False
             ddlcername4.Enabled = False
             ddlcername5.Enabled = False
             ddlcername6.Enabled = False
             ddlcername7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
+
             ddlFunction1.Enabled = True
             ddlFunction2.Enabled = False
             ddlFunction3.Enabled = False
@@ -703,6 +746,13 @@ Partial Class P_THE_CONFINED
             ddlFunction5.Enabled = False
             ddlFunction6.Enabled = False
             ddlFunction7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
         ElseIf txtnamesum.Text = "2" Then
             ddlcername1.Enabled = True
@@ -712,14 +762,28 @@ Partial Class P_THE_CONFINED
             ddlcername5.Enabled = False
             ddlcername6.Enabled = False
             ddlcername7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
 
             ddlFunction1.Enabled = True
-            ddlFunction2.Enabled = True
+            ddlFunction2.Enabled = False
             ddlFunction3.Enabled = False
             ddlFunction4.Enabled = False
             ddlFunction5.Enabled = False
             ddlFunction6.Enabled = False
             ddlFunction7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
         ElseIf txtnamesum.Text = "3" Then
             ddlcername1.Enabled = True
@@ -729,14 +793,28 @@ Partial Class P_THE_CONFINED
             ddlcername5.Enabled = False
             ddlcername6.Enabled = False
             ddlcername7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
 
             ddlFunction1.Enabled = True
-            ddlFunction2.Enabled = True
-            ddlFunction3.Enabled = True
+            ddlFunction2.Enabled = False
+            ddlFunction3.Enabled = False
             ddlFunction4.Enabled = False
             ddlFunction5.Enabled = False
             ddlFunction6.Enabled = False
             ddlFunction7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
         ElseIf txtnamesum.Text = "4" Then
             ddlcername1.Enabled = True
@@ -746,6 +824,13 @@ Partial Class P_THE_CONFINED
             ddlcername5.Enabled = False
             ddlcername6.Enabled = False
             ddlcername7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
 
             ddlFunction1.Enabled = True
             ddlFunction2.Enabled = True
@@ -754,6 +839,13 @@ Partial Class P_THE_CONFINED
             ddlFunction5.Enabled = False
             ddlFunction6.Enabled = False
             ddlFunction7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
         ElseIf txtnamesum.Text = "5" Then
             ddlcername1.Enabled = True
@@ -763,6 +855,13 @@ Partial Class P_THE_CONFINED
             ddlcername5.Enabled = True
             ddlcername6.Enabled = False
             ddlcername7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
 
             ddlFunction1.Enabled = True
             ddlFunction2.Enabled = True
@@ -771,6 +870,13 @@ Partial Class P_THE_CONFINED
             ddlFunction5.Enabled = True
             ddlFunction6.Enabled = False
             ddlFunction7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
         ElseIf txtnamesum.Text = "6" Then
             ddlcername1.Enabled = True
@@ -780,6 +886,13 @@ Partial Class P_THE_CONFINED
             ddlcername5.Enabled = True
             ddlcername6.Enabled = True
             ddlcername7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
 
             ddlFunction1.Enabled = True
             ddlFunction2.Enabled = True
@@ -788,6 +901,13 @@ Partial Class P_THE_CONFINED
             ddlFunction5.Enabled = True
             ddlFunction6.Enabled = True
             ddlFunction7.Enabled = False
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
         ElseIf txtnamesum.Text = "7" Then
             ddlcername1.Enabled = True
@@ -797,6 +917,13 @@ Partial Class P_THE_CONFINED
             ddlcername5.Enabled = True
             ddlcername6.Enabled = True
             ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = False
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
 
             ddlFunction1.Enabled = True
             ddlFunction2.Enabled = True
@@ -805,8 +932,202 @@ Partial Class P_THE_CONFINED
             ddlFunction5.Enabled = True
             ddlFunction6.Enabled = True
             ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = False
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
             Exit Sub
-        ElseIf txtnamesum.Text > "7" Then
+        ElseIf txtnamesum.Text = "8" Then
+            ddlcername1.Enabled = True
+            ddlcername2.Enabled = True
+            ddlcername3.Enabled = True
+            ddlcername4.Enabled = True
+            ddlcername5.Enabled = True
+            ddlcername6.Enabled = True
+            ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = True
+            ddlcername9.Enabled = False
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
+
+            ddlFunction1.Enabled = True
+            ddlFunction2.Enabled = True
+            ddlFunction3.Enabled = True
+            ddlFunction4.Enabled = True
+            ddlFunction5.Enabled = True
+            ddlFunction6.Enabled = True
+            ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = True
+            ddlFunction9.Enabled = False
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
+            Exit Sub
+        ElseIf txtnamesum.Text = "9" Then
+            ddlcername1.Enabled = True
+            ddlcername2.Enabled = True
+            ddlcername3.Enabled = True
+            ddlcername4.Enabled = True
+            ddlcername5.Enabled = True
+            ddlcername6.Enabled = True
+            ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = True
+            ddlcername9.Enabled = True
+            ddlcername10.Enabled = False
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
+
+            ddlFunction1.Enabled = True
+            ddlFunction2.Enabled = True
+            ddlFunction3.Enabled = True
+            ddlFunction4.Enabled = True
+            ddlFunction5.Enabled = True
+            ddlFunction6.Enabled = True
+            ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = True
+            ddlFunction9.Enabled = True
+            ddlFunction10.Enabled = False
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
+            Exit Sub
+        ElseIf txtnamesum.Text = "10" Then
+            ddlcername1.Enabled = True
+            ddlcername2.Enabled = True
+            ddlcername3.Enabled = True
+            ddlcername4.Enabled = True
+            ddlcername5.Enabled = True
+            ddlcername6.Enabled = True
+            ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = True
+            ddlcername9.Enabled = True
+            ddlcername10.Enabled = True
+            ddlcername11.Enabled = False
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
+
+            ddlFunction1.Enabled = True
+            ddlFunction2.Enabled = True
+            ddlFunction3.Enabled = True
+            ddlFunction4.Enabled = True
+            ddlFunction5.Enabled = True
+            ddlFunction6.Enabled = True
+            ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = True
+            ddlFunction9.Enabled = True
+            ddlFunction10.Enabled = True
+            ddlFunction11.Enabled = False
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
+            Exit Sub
+        ElseIf txtnamesum.Text = "11" Then
+            ddlcername1.Enabled = True
+            ddlcername2.Enabled = True
+            ddlcername3.Enabled = True
+            ddlcername4.Enabled = True
+            ddlcername5.Enabled = True
+            ddlcername6.Enabled = True
+            ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = True
+            ddlcername9.Enabled = True
+            ddlcername10.Enabled = True
+            ddlcername11.Enabled = True
+            ddlcername12.Enabled = False
+            ddlcername13.Enabled = False
+
+            ddlFunction1.Enabled = True
+            ddlFunction2.Enabled = True
+            ddlFunction3.Enabled = True
+            ddlFunction4.Enabled = True
+            ddlFunction5.Enabled = True
+            ddlFunction6.Enabled = True
+            ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = True
+            ddlFunction9.Enabled = True
+            ddlFunction10.Enabled = True
+            ddlFunction11.Enabled = True
+            ddlFunction12.Enabled = False
+            ddlFunction13.Enabled = False
+            Exit Sub
+        ElseIf txtnamesum.Text = "12" Then
+            ddlcername1.Enabled = True
+            ddlcername2.Enabled = True
+            ddlcername3.Enabled = True
+            ddlcername4.Enabled = True
+            ddlcername5.Enabled = True
+            ddlcername6.Enabled = True
+            ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = True
+            ddlcername9.Enabled = True
+            ddlcername10.Enabled = True
+            ddlcername11.Enabled = True
+            ddlcername12.Enabled = True
+            ddlcername13.Enabled = False
+
+            ddlFunction1.Enabled = True
+            ddlFunction2.Enabled = True
+            ddlFunction3.Enabled = True
+            ddlFunction4.Enabled = True
+            ddlFunction5.Enabled = True
+            ddlFunction6.Enabled = True
+            ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = True
+            ddlFunction9.Enabled = True
+            ddlFunction10.Enabled = True
+            ddlFunction11.Enabled = True
+            ddlFunction12.Enabled = True
+            ddlFunction13.Enabled = False
+            Exit Sub
+        ElseIf txtnamesum.Text = "13" Then
+            ddlcername1.Enabled = True
+            ddlcername2.Enabled = True
+            ddlcername3.Enabled = True
+            ddlcername4.Enabled = True
+            ddlcername5.Enabled = True
+            ddlcername6.Enabled = True
+            ddlcername7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlcername8.Enabled = True
+            ddlcername9.Enabled = True
+            ddlcername10.Enabled = True
+            ddlcername11.Enabled = True
+            ddlcername12.Enabled = True
+            ddlcername13.Enabled = True
+
+            ddlFunction1.Enabled = True
+            ddlFunction2.Enabled = True
+            ddlFunction3.Enabled = True
+            ddlFunction4.Enabled = True
+            ddlFunction5.Enabled = True
+            ddlFunction6.Enabled = True
+            ddlFunction7.Enabled = True
+            '------ Add new 2022-09-09
+            ddlFunction8.Enabled = True
+            ddlFunction9.Enabled = True
+            ddlFunction10.Enabled = True
+            ddlFunction11.Enabled = True
+            ddlFunction12.Enabled = True
+            ddlFunction13.Enabled = True
+            Exit Sub
+
+        ElseIf txtnamesum.Text > "13" Then
             ClientScript.RegisterStartupScript(Me.[GetType](), "myalert", "alert('!!! Please Check Sum Name !!!');", True)
             txtnamesum.Text = ""
             txtnamesum.Focus()
@@ -944,7 +1265,7 @@ Partial Class P_THE_CONFINED
         End If
 
         Dim rpt As New ReportDocument()
-        rpt.Load(Server.MapPath("Confinde_Space.rpt"))
+        rpt.Load(Server.MapPath("Confinde_Space_New.rpt"))
         rpt.SetDataSource(V_REC_ACC_DATA)
         Me.CrystalReportViewer1.ReportSource = rpt
         Dim formatType As ExportFormatType = ExportFormatType.NoFormat
@@ -995,6 +1316,42 @@ Partial Class P_THE_CONFINED
                     ddlcername7.DataTextField = "CerName"
                     ddlcername7.DataValueField = "CerName"
                     ddlcername7.DataBind()
+
+                    '-----------Add new 2022-09-09
+                    ddlcername8.DataSource = ds.Tables(0)
+                    ddlcername8.DataTextField = "CerName"
+                    ddlcername8.DataValueField = "CerName"
+                    ddlcername8.DataBind()
+
+
+                    ddlcername9.DataSource = ds.Tables(0)
+                    ddlcername9.DataTextField = "CerName"
+                    ddlcername9.DataValueField = "CerName"
+                    ddlcername9.DataBind()
+
+
+                    ddlcername10.DataSource = ds.Tables(0)
+                    ddlcername10.DataTextField = "CerName"
+                    ddlcername10.DataValueField = "CerName"
+                    ddlcername10.DataBind()
+
+
+                    ddlcername11.DataSource = ds.Tables(0)
+                    ddlcername11.DataTextField = "CerName"
+                    ddlcername11.DataValueField = "CerName"
+                    ddlcername11.DataBind()
+
+                    ddlcername12.DataSource = ds.Tables(0)
+                    ddlcername12.DataTextField = "CerName"
+                    ddlcername12.DataValueField = "CerName"
+                    ddlcername12.DataBind()
+
+
+                    ddlcername13.DataSource = ds.Tables(0)
+                    ddlcername13.DataTextField = "CerName"
+                    ddlcername13.DataValueField = "CerName"
+                    ddlcername13.DataBind()
+                    '-----------Add new 2022-09-09
                 End Using
             End Using
 
@@ -1005,6 +1362,13 @@ Partial Class P_THE_CONFINED
             ddlcername5.Items.Insert(0, New ListItem("-- Select Cername 5 --", ""))
             ddlcername6.Items.Insert(0, New ListItem("-- Select Cername 6 --", ""))
             ddlcername7.Items.Insert(0, New ListItem("-- Select Cername 7 --", ""))
+            '-----------Add new 2022-09-09
+            ddlcername8.Items.Insert(0, New ListItem("-- Select Cername 8 --", ""))
+            ddlcername9.Items.Insert(0, New ListItem("-- Select Cername 9 --", ""))
+            ddlcername10.Items.Insert(0, New ListItem("-- Select Cername 10 --", ""))
+            ddlcername11.Items.Insert(0, New ListItem("-- Select Cername 11 --", ""))
+            ddlcername12.Items.Insert(0, New ListItem("-- Select Cername 12--", ""))
+            ddlcername13.Items.Insert(0, New ListItem("-- Select Cername 13 --", ""))
 
             ddlFunction1.Items.Insert(0, New ListItem("-- Select JobFunction 1 --", ""))
             ddlFunction2.Items.Insert(0, New ListItem("-- Select JobFunction 2 --", ""))
@@ -1013,6 +1377,13 @@ Partial Class P_THE_CONFINED
             ddlFunction5.Items.Insert(0, New ListItem("-- Select JobFunction 5 --", ""))
             ddlFunction6.Items.Insert(0, New ListItem("-- Select JobFunction 6 --", ""))
             ddlFunction7.Items.Insert(0, New ListItem("-- Select JobFunction 7 --", ""))
+            '-----------Add new 2022-09-09
+            ddlFunction8.Items.Insert(0, New ListItem("-- Select JobFunction 8 --", ""))
+            ddlFunction9.Items.Insert(0, New ListItem("-- Select JobFunction 9 --", ""))
+            ddlFunction10.Items.Insert(0, New ListItem("-- Select JobFunction 10 --", ""))
+            ddlFunction11.Items.Insert(0, New ListItem("-- Select JobFunction 11 --", ""))
+            ddlFunction12.Items.Insert(0, New ListItem("-- Select JobFunction 12 --", ""))
+            ddlFunction13.Items.Insert(0, New ListItem("-- Select JobFunction 13 --", ""))
 
         End Using
     End Sub
@@ -1150,8 +1521,111 @@ Partial Class P_THE_CONFINED
     End Sub
 
 
+    Protected Sub ddlcername8_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlcername8.SelectedIndexChanged
+        Dim constr As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString
+        Using con As New SqlConnection(constr)
+            Using cmd As New SqlCommand("SELECT * FROM  V_SAFETY_Function  WHERE CerName = '" & ddlcername8.SelectedValue & "'  ORDER BY CerName ASC  ")
+                cmd.CommandType = CommandType.Text
+                cmd.Connection = con
+                Using sda As New SqlDataAdapter(cmd)
+                    Dim ds As New DataSet()
+                    sda.Fill(ds)
+                    ddlFunction8.DataSource = ds.Tables(0)
+                    ddlFunction8.DataTextField = "CerFunction"
+                    ddlFunction8.DataValueField = "CerFunction"
+                    ddlFunction8.DataBind()
+                End Using
+            End Using
+        End Using
+    End Sub
 
+    Protected Sub ddlcername9_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlcername9.SelectedIndexChanged
+        Dim constr As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString
+        Using con As New SqlConnection(constr)
+            Using cmd As New SqlCommand("SELECT * FROM  V_SAFETY_Function  WHERE CerName = '" & ddlcername9.SelectedValue & "'  ORDER BY CerName ASC  ")
+                cmd.CommandType = CommandType.Text
+                cmd.Connection = con
+                Using sda As New SqlDataAdapter(cmd)
+                    Dim ds As New DataSet()
+                    sda.Fill(ds)
+                    ddlFunction9.DataSource = ds.Tables(0)
+                    ddlFunction9.DataTextField = "CerFunction"
+                    ddlFunction9.DataValueField = "CerFunction"
+                    ddlFunction9.DataBind()
+                End Using
+            End Using
+        End Using
+    End Sub
+    Protected Sub ddlcername10_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlcername10.SelectedIndexChanged
+        Dim constr As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString
+        Using con As New SqlConnection(constr)
+            Using cmd As New SqlCommand("SELECT * FROM  V_SAFETY_Function  WHERE CerName = '" & ddlcername10.SelectedValue & "'  ORDER BY CerName ASC  ")
+                cmd.CommandType = CommandType.Text
+                cmd.Connection = con
+                Using sda As New SqlDataAdapter(cmd)
+                    Dim ds As New DataSet()
+                    sda.Fill(ds)
+                    ddlFunction10.DataSource = ds.Tables(0)
+                    ddlFunction10.DataTextField = "CerFunction"
+                    ddlFunction10.DataValueField = "CerFunction"
+                    ddlFunction10.DataBind()
+                End Using
+            End Using
+        End Using
+    End Sub
 
+    Protected Sub ddlcername11_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlcername11.SelectedIndexChanged
+        Dim constr As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString
+        Using con As New SqlConnection(constr)
+            Using cmd As New SqlCommand("SELECT * FROM  V_SAFETY_Function  WHERE CerName = '" & ddlcername11.SelectedValue & "'  ORDER BY CerName ASC  ")
+                cmd.CommandType = CommandType.Text
+                cmd.Connection = con
+                Using sda As New SqlDataAdapter(cmd)
+                    Dim ds As New DataSet()
+                    sda.Fill(ds)
+                    ddlFunction11.DataSource = ds.Tables(0)
+                    ddlFunction11.DataTextField = "CerFunction"
+                    ddlFunction11.DataValueField = "CerFunction"
+                    ddlFunction11.DataBind()
+                End Using
+            End Using
+        End Using
+    End Sub
+    Protected Sub ddlcername12_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlcername12.SelectedIndexChanged
+        Dim constr As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString
+        Using con As New SqlConnection(constr)
+            Using cmd As New SqlCommand("SELECT * FROM  V_SAFETY_Function  WHERE CerName = '" & ddlcername12.SelectedValue & "'  ORDER BY CerName ASC  ")
+                cmd.CommandType = CommandType.Text
+                cmd.Connection = con
+                Using sda As New SqlDataAdapter(cmd)
+                    Dim ds As New DataSet()
+                    sda.Fill(ds)
+                    ddlFunction12.DataSource = ds.Tables(0)
+                    ddlFunction12.DataTextField = "CerFunction"
+                    ddlFunction12.DataValueField = "CerFunction"
+                    ddlFunction12.DataBind()
+                End Using
+            End Using
+        End Using
+    End Sub
+
+    Protected Sub ddlcername13_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlcername13.SelectedIndexChanged
+        Dim constr As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString
+        Using con As New SqlConnection(constr)
+            Using cmd As New SqlCommand("SELECT * FROM  V_SAFETY_Function  WHERE CerName = '" & ddlcername13.SelectedValue & "'  ORDER BY CerName ASC  ")
+                cmd.CommandType = CommandType.Text
+                cmd.Connection = con
+                Using sda As New SqlDataAdapter(cmd)
+                    Dim ds As New DataSet()
+                    sda.Fill(ds)
+                    ddlFunction13.DataSource = ds.Tables(0)
+                    ddlFunction13.DataTextField = "CerFunction"
+                    ddlFunction13.DataValueField = "CerFunction"
+                    ddlFunction13.DataBind()
+                End Using
+            End Using
+        End Using
+    End Sub
     Private Sub Sent_Email_lisicor()
 
         Dim ConStr_SAFETY As String = ConfigurationManager.ConnectionStrings("CONN_SAFETY").ConnectionString

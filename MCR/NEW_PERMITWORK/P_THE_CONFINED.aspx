@@ -380,7 +380,7 @@
                                     <th colspan="3" class=""><asp:DropDownList ID="ddlFunction6" runat="server" CssClass="form-control input-sm" Enabled="false"  >
                                         </asp:DropDownList></th>
                                 </tr>
-                                                               <tr>
+                                <tr>
                                     <td colspan="1" class=" text-right">รายชื่อ (7)</td>
                                     <th colspan="3" class="">
 
@@ -391,6 +391,82 @@
                                     <th colspan="3" class=""><asp:DropDownList ID="ddlFunction7" runat="server" CssClass="form-control input-sm" Enabled="false"  >
                                         </asp:DropDownList></th>
                                 </tr>
+
+                                 <tr>
+                                    <td colspan="1" class=" text-right">รายชื่อ (8)</td>
+                                    <th colspan="3" class="">
+
+                                        <asp:DropDownList ID="ddlcername8" runat="server" CssClass="form-control input-sm"   AutoPostBack="true" Enabled="false"  >
+                                        </asp:DropDownList>
+                                    </th>
+                                    <td colspan="1" class=" text-right">หน้าที่</td>
+                                    <th colspan="3" class=""><asp:DropDownList ID="ddlFunction8" runat="server" CssClass="form-control input-sm" Enabled="false"  >
+                                        </asp:DropDownList></th>
+                                </tr>
+
+                                 <tr>
+                                    <td colspan="1" class=" text-right">รายชื่อ (9)</td>
+                                    <th colspan="3" class="">
+
+                                        <asp:DropDownList ID="ddlcername9" runat="server" CssClass="form-control input-sm"   AutoPostBack="true" Enabled="false"  >
+                                        </asp:DropDownList>
+                                    </th>
+                                    <td colspan="1" class=" text-right">หน้าที่</td>
+                                    <th colspan="3" class=""><asp:DropDownList ID="ddlFunction9" runat="server" CssClass="form-control input-sm" Enabled="false"  >
+                                        </asp:DropDownList></th>
+                                </tr>
+
+                                 <tr>
+                                    <td colspan="1" class=" text-right">รายชื่อ (10)</td>
+                                    <th colspan="3" class="">
+
+                                        <asp:DropDownList ID="ddlcername10" runat="server" CssClass="form-control input-sm"   AutoPostBack="true" Enabled="false"  >
+                                        </asp:DropDownList>
+                                    </th>
+                                    <td colspan="1" class=" text-right">หน้าที่</td>
+                                    <th colspan="3" class=""><asp:DropDownList ID="ddlFunction10" runat="server" CssClass="form-control input-sm" Enabled="false"  >
+                                        </asp:DropDownList></th>
+                                </tr>
+
+
+                                   <tr>
+                                    <td colspan="1" class=" text-right">รายชื่อ (11)</td>
+                                    <th colspan="3" class="">
+
+                                        <asp:DropDownList ID="ddlcername11" runat="server" CssClass="form-control input-sm"   AutoPostBack="true" Enabled="false"  >
+                                        </asp:DropDownList>
+                                    </th>
+                                    <td colspan="1" class=" text-right">หน้าที่</td>
+                                    <th colspan="3" class=""><asp:DropDownList ID="ddlFunction11" runat="server" CssClass="form-control input-sm" Enabled="false"  >
+                                        </asp:DropDownList></th>
+                                </tr>
+
+                                   <tr>
+                                    <td colspan="1" class=" text-right">รายชื่อ (12)</td>
+                                    <th colspan="3" class="">
+
+                                        <asp:DropDownList ID="ddlcername12" runat="server" CssClass="form-control input-sm"   AutoPostBack="true" Enabled="false"  >
+                                        </asp:DropDownList>
+                                    </th>
+                                    <td colspan="1" class=" text-right">หน้าที่</td>
+                                    <th colspan="3" class=""><asp:DropDownList ID="ddlFunction12" runat="server" CssClass="form-control input-sm" Enabled="false"  >
+                                        </asp:DropDownList></th>
+                                </tr>
+
+
+                                   <tr>
+                                    <td colspan="1" class=" text-right">รายชื่อ (13)</td>
+                                    <th colspan="3" class="">
+
+                                        <asp:DropDownList ID="ddlcername13" runat="server" CssClass="form-control input-sm"   AutoPostBack="true" Enabled="false"  >
+                                        </asp:DropDownList>
+                                    </th>
+                                    <td colspan="1" class=" text-right">หน้าที่</td>
+                                    <th colspan="3" class=""><asp:DropDownList ID="ddlFunction13" runat="server" CssClass="form-control input-sm" Enabled="false"  >
+                                        </asp:DropDownList></th>
+                                </tr>
+
+
                                 
                                 
                                 
